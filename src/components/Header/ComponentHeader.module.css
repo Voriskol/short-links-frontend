@@ -1,0 +1,42 @@
+
+.header {
+    min-height: 60px;
+    background-color: #F9FAFB;
+}
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.NavBar {
+    min-height: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    color: #6B7280;
+    align-items: center;
+}
+
+.NavBar li {
+    list-style-type: none;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.NavBar li:hover {
+    background-color: #dee3e8;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .NavBar {
+        flex-direction: column;
+
+    }
+    .NavBar li {
+        font-size: 24px;
+    }
+}

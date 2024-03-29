@@ -1,0 +1,83 @@
+.TransformLinks {
+    background-color: #F9FAFB;
+    min-height: 600px;
+    text-align: center;
+}
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.TransformLinks__h3 {
+    padding-top: 64px;
+    font-size: 40px;
+    color: #111827;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+.shortener__pInput,
+.TransformLinks__h4 {
+    font-size: 20px;
+    color: #6B7280;
+    font-weight: 500;
+    padding-bottom: 64px;
+}
+
+.TransformLinks__shortener {
+    margin: 0 auto;
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.shortener__pInput {
+    align-self: start;
+    padding-bottom: 5px;
+}
+.shortener__output,
+.shortener__input {
+    padding: 10px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 2px solid grey;
+    margin-bottom: 20px;
+    font-size: 20px;
+    outline: none;
+    color: #6B7280;
+}
+
+.shortener__button {
+    align-self: center;
+    width: 250px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 30px;
+    font-size: 24px;
+    background-color: #E0E7FF;
+    color: #4F46E5;
+
+}
+
+.shortener__button:hover {
+    background-color: #4F46E5;
+    color: #FFFFFF;
+    transition: background-color 0.3s;
+}
+
+
+@media screen and (max-width: 768px) {
+    .TransformLinks__h3 {
+        padding-top: 30px;
+
+    }
+
+    .TransformLinks__shortener {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+}
