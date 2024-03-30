@@ -30,6 +30,11 @@
     border-radius: 5px;
 }
 
+.header__topLine {
+    height: 1px;
+    background-color: #808080;
+}
+
 
 @media screen and (max-width: 768px) {
     .NavBar {
