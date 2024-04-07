@@ -12,10 +12,6 @@ export default function Home() {
         <main className={styles.main}>
             <AuthorizationComponent/>
             <TransformLinksComponent/>
-            <FooterComponent/>
-
-
-
         </main>
     );
 }
